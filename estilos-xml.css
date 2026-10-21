@@ -1,0 +1,88 @@
+llaveDigitalCiudadana {
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+informacionGeneral {
+    display: block;
+    background-color: #d2e694;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    border-left: 5px solid #54139a;
+}
+
+nombre {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #440978;
+    margin-bottom: 0.5rem;
+}
+
+proposito, alcance {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+listaTramites {
+    display: block;
+}
+
+tramite {
+    display: block;
+    border: 1px solid #a4929c;
+    border-radius: 8px;
+    padding: 1.3rem;
+    margin-bottom: 1.2rem;
+    background-color: #b08181;
+}
+
+tramite > nombre {
+    font-size: 1.2rem;
+    border-bottom: 2px solid #0066CC;
+    padding-bottom: 0.4rem;
+}
+
+descripcion, modalidad {
+    display: block;
+    margin: 0.6rem 0;
+}
+
+requisitos {
+    display: block;
+    margin: 0.6rem 0;
+    padding-left: 1rem;
+}
+
+requisito {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 1rem;
+}
+
+enlaceOficial {
+    display: block;
+    color: #0066CC;
+    text-decoration: underline;
+    margin-top: 0.8rem;
+}
+
+seguridad {
+    display: block;
+    margin-top: 2rem;
+    padding: 1.2rem;
+    background-color: #186984;
+    border-radius: 8px;
+}
+
+recomendacion {
+    display: list-item;
+    list-style-type: "✅ ";
+    padding-left: 0.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}

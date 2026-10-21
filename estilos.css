@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+:root {
+    --azul-principal: #8fb815;
+    --azul-claro: #c27415;
+    --gris-fondo: #097e74;
+    --texto-oscuro: #212529;
+    --borde-suave: #1a065f;
+    --exito: #a3c83f;
+}
+
+body {
+    line-height: 1.6;
+    color: var(--texto-oscuro);
+    background-color: #FFFFFF;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(90deg, var(--azul-principal), var(--azul-claro));
+    color: white;
+    padding: 1.2rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.seccion {
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--borde-suave);
+}
+
+.seccion h2 {
+    color: var(--azul-principal);
+    margin-bottom: 1rem;
+    border-left: 4px solid var(--azul-claro);
+    padding-left: 0.8rem;
+}
+
+.tarjeta-tramite {
+    background: var(--gris-fondo);
+    border-radius: 8px;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid var(--azul-claro);
+    transition: transform 0.2s ease;
+}
+
+.tarjeta-tramite:hover {
+    transform: translateY(-3px);
+}
+
+.tarjeta-tramite h3 {
+    color: var(--azul-principal);
+    margin-bottom: 0.5rem;
+}
+
+input, button {
+    padding: 0.7rem;
+    border-radius: 4px;
+    border: 1px solid var(--borde-suave);
+    font-size: 1rem;
+}
+
+button {
+    background-color: var(--azul-claro);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+button:hover {
+    background-color: var(--azul-principal);
+}
+
+#resultado-busqueda {
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.recomendacion {
+    background-color: #E8F4F8;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 0.8rem;
+}
+
+ol {
+    padding-left: 1.5rem;
+}
+
+ol li {
+    margin-bottom: 0.8rem;
+}
+
+footer {
+    background-color: var(--gris-fondo);
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6C757D;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        gap: 0.6rem;
+    }
+    button {
+        margin-top: 0.5rem;
+        margin-left: 0;
+        width: 100%;
+    }
+}

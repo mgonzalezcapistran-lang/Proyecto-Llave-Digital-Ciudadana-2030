@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilos-xml.css"?>
+<llaveDigitalCiudadana>
+<informacionGeneral>
+<nombre>
+Llave Digital Ciudadana 2030
+</nombre>
+<proposito>
+Orientar a la ciudadanía sobre trámites y servicios digitales oficiales en México.
+</proposito>
+<alcance>
+ Prototipo académico. No realiza gestiones reales ni almacena datos personales.
+</alcance>
+</informacionGeneral>
+
+<listaTramites>
+<tramite id="t1">
+<nombre>Credencial para Votar (INE)</nombre>
+<descripcion>
+
+Documento oficial de identificación personal con validez nacional expedido por el Instituto Nacional Electoral.
+</descripcion>
+<requisitos>
+<requisito>Acta de nacimiento certificada</requisito>
+<requisito>Comprobante de domicilio reciente</requisito>
+<requisito>Identificación con fotografía</requisito>
+<requisito>Formato de solicitud</requisito>
+</requisitos>
+<modalidad>Presencial en módulos de atención o inicio en línea</modalidad>
+<enlaceOficial>https://www.ine.mx/credencial-para-votar/</enlaceOficial>
+</tramite>
+
+<tramite id="t2">
+<nombre>Obtención o Reimpresión de CURP</nombre>
+<descripcion>
+Clave Única de Registro de Población necesaria para realizar trámites en instituciones públicas y privadas.
+</descripcion>
+<requisitos>
+<requisito>Datos personales completos</requisito>
+<requisito>Documento probatorio en caso de corrección</requisito>
+</requisitos>
+<modalidad>Totalmente en línea y gratuito</modalidad>
+<enlaceOficial>https://www.gob.mx/curp</enlaceOficial>
+</tramite>
+
+<tramite id="t3">
+<nombre>Pasaporte Mexicano</nombre>
+<descripcion>
+Documento oficial de viaje expedido por la Secretaría de Relaciones Exteriores.
+</descripcion>
+<requisitos>
+<requisito>Acta de nacimiento</requisito>
+<requisito>CURP</requisito>
+<requisito>Comprobante de domicilio</requisito>
+<requisito>Identificación oficial vigente</requisito>
+<requisito>Comprobante de pago de derechos</requisito>
+</requisitos>
+<modalidad>Cita previa en línea + atención presencial</modalidad>
+<enlaceOficial>https://www.gob.mx/sre/acciones-y-programas/pasaportes-16324</enlaceOficial>
+</tramite>
+</listaTramites>
+
+<seguridad>
+<recomendacion>Verificar que el sitio termine en .gob.mx y cuente con certificado HTTPS</recomendacion>
+<recomendacion>No compartir contraseñas ni datos sensibles por correo o mensajes</recomendacion>
+</seguridad>
+</llaveDigitalCiudadana>

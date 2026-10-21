@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llave Digital Ciudadana 2030</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="contenedor header-flex">
+            <div class="logo">
+                <span class="icono-logo">🔑</span>
+                <div>
+                    <strong>Llave Digital</strong><br>
+                    <small>CIUDADANA 2030</small>
+                </div>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#tramites">Trámites</a></li>
+                    <li><a href="#preguntas">Preguntas</a></li>
+                    <li><a href="#seguridad">Seguridad</a></li>
+                    <li><a href="tramites.xml">Ver en XML</a></li>
+                </ul>
+            </nav>
+
+            <button class="boton-entrar" onclick="alert('🔑 Es un prototipo. No existe acceso real. Ve a la sección Trámites para ver la información.')">
+                🔒 Entrar con mi Llave
+            </button>
+        </div>
+    </header>
+
+    <!-- Sección Principal / Inicio -->
+    <section id="inicio" class="seccion hero">
+        <div class="contenedor hero-contenido">
+            <div class="hero-texto">
+                <span class="etiqueta">Identidad digital oficial</span>
+                <h1>Llave Digital <span>Ciudadana 2030</span></h1>
+                <p>Una sola llave segura para tu identidad, tus documentos y todos tus trámites de gobierno. Sin filas, sin copias, y con tus datos bajo tu control.</p>
+                
+                <div class="hero-botones">
+                    <button class="boton-principal" onclick="alert('🔑 En el futuro funcionará. Por ahora explora los trámites abajo.')">
+                        Ver mi Llave →
+                    </button>
+                    <a href="#tramites" class="boton-secundario">Explorar trámites</a>
+                </div>
+
+                <p class="disponible">📱 Disponible en celular, web y tarjeta con chip.</p>
+            </div>
+            <div class="hero-imagen">
+                <img src="ilustracion.png" alt="Ciudadanos usando identidad digital" onerror="this.style.display='none'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Buscador -->
+    <section class="seccion buscador-seccion">
+        <div class="contenedor">
+            <h2>Buscar trámite</h2>
+            <input type="text" id="entrada-busqueda" placeholder="Escribe: INE, CURP o Pasaporte...">
+            <button id="boton-buscar">Buscar</button>
+            <p id="resultado-busqueda"></p>
+        </div>
+    </section>
+
+    <!-- Trámites -->
+    <section id="tramites" class="seccion">
+        <div class="contenedor">
+            <h2>Trámites y Servicios</h2>
+
+            <div class="tarjeta-tramite" id="tramite-identificacion">
+                <h3>1. Credencial para Votar (INE)</h3>
+                <p><strong>Descripción:</strong> Documento oficial de identificación personal con validez nacional.</p>
+                <p><strong>Requisitos:</strong> Acta de nacimiento certificada, comprobante de domicilio reciente, identificación con fotografía y formato de solicitud.</p>
+                <p><strong>Modalidad:</strong> Presencial en módulos o inicio de trámite por internet.</p>
+                <p><strong>Enlace oficial:</strong> <a href="https://www.ine.mx/credencial-para-votar/" target="_blank">ine.mx/credencial-para-votar</a></p>
+            </div>
+
+            <div class="tarjeta-tramite" id="tramite-curp">
+                <h3>2. Obtención o Reimpresión de CURP</h3>
+                <p><strong>Descripción:</strong> Clave Única de Registro de Población, necesaria para realizar cualquier trámite en el sector público y privado.</p>
+                <p><strong>Requisitos:</strong> Datos personales completos; documento probatorio si es corrección.</p>
+                <p><strong>Modalidad:</strong> Totalmente en línea y gratuita.</p>
+                <p><strong>Enlace oficial:</strong> <a href="https://www.gob.mx/curp" target="_blank">gob.mx/curp</a></p>
+            </div>
+
+            <div class="tarjeta-tramite" id="tramite-pasaporte">
+                <h3>3. Pasaporte Mexicano</h3>
+                <p><strong>Descripción:</strong> Documento oficial de viaje expedido por la Secretaría de Relaciones Exteriores.</p>
+                <p><strong>Requisitos:</strong> Acta de nacimiento, CURP, comprobante de domicilio, identificación oficial vigente y comprobante de pago de derechos.</p>
+                <p><strong>Modalidad:</strong> Cita previa en línea + atención presencial en oficinas de la SRE.</p>
+                <p><strong>Enlace oficial:</strong> <a href="https://www.gob.mx/sre/acciones-y-programas/pasaportes-16324" target="_blank">gob.mx/sre/pasaportes</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preguntas Frecuentes -->
+    <section id="preguntas" class="seccion">
+        <div class="contenedor">
+            <h2>Preguntas Frecuentes</h2>
+            <ol>
+                <li><strong>¿Este portal realiza el trámite por mí?</strong> No. Es una guía informativa; debes acudir a las fuentes oficiales indicadas.</li>
+                <li><strong>¿La información tiene costo?</strong> No. Toda la información aquí presentada es de acceso público.</li>
+                <li><strong>¿Qué hago si un enlace no funciona?</strong> Puedes buscar directamente en <em>gob.mx</em> o en la institución correspondiente.</li>
+                <li><strong>¿Puedo realizar trámites para otras personas?</strong> Algunos trámites requieren presencia o autorización expresa.</li>
+                <li><strong>¿Cómo sé que la información es confiable?</strong> Se extrae directamente de portales gubernamentales oficiales.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Seguridad -->
+    <section id="seguridad" class="seccion">
+        <div class="contenedor">
+            <h2>Uso Seguro de Servicios Digitales</h2>
+            <div class="recomendacion">
+                <p>✅ <strong>Verifica siempre el dominio:</strong> Asegúrate de que el sitio termine en <code>.gob.mx</code> y cuente con candado de seguridad (HTTPS). No des información personal en enlaces desconocidos o sospechosos.</p>
+            </div>
+            <div class="recomendacion">
+                <p>✅ <strong>No compartas contraseñas ni datos sensibles:</strong> Instituciones oficiales nunca te pedirán claves completas por correo, mensaje telefónico o redes sociales. Si tienes dudas, contacta directamente a la institución.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="contenedor">
+            <p>Prototipo con fines académicos — Llave Digital Ciudadana 2030<br>
+            Fuentes: INE, Gobierno de México, SRE | Referencias en formato APA 7.ª edición</p>
+        </div>
+    </footer>
+
+    <!-- Buscador JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

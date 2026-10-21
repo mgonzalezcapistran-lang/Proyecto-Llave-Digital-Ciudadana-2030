@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registros>
+    <registro id="T001">
+        <nombre>EmisiOn por primera vez de Pasaporte Mexicano</nombre>
+        <descripcion>Solicitud para personas que nunca han tenido pasaporte. Se llena el formulario y se agenda cita por internet; la entrega de documentos y toma de fotografía se hace de forma presencial.</descripcion>
+        <categoria>mixta</categoria>
+    </registro>
+    <registro id="T002">
+        <nombre>Renovacion de Pasaporte Mexicano</nombre>
+        <descripcion>Renovacion para personas con pasaporte vigente. Se completa todo en línea y el documento se envía por correspondencia al domicilio.</descripcion>
+        <categoria>mixta</categoria>
+    </registro>
+    <registro id="t003">
+        <nombre>Reposicion por perdida o robo</nombre>
+        <descripcion>Tramite que requiere comparecencia personal en la SRE con identificación oficial y la denuncia correspondiente.</descripcion>
+        <categoria>presencial</categoria>
+    </registro>
+</registros>
